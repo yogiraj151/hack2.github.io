@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Identifier</title>
+    <link rel="icon" href="images/weblogo.avif">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta name="description" content="Identify plant diseases and get treatment advice using our Plant Disease Identifier.">
+    <meta name="keywords" content="Plant Disease, Agriculture, Plant Health, Disease Identifier">
+</head>
+
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h1 id="homeLink">Plant Disease Identifier</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+        <div class="gt" id="google_translate_element"></div>
+    </nav>
+
+    <div class="container">
+        <form id="diseaseForm">
+            <label for="plant">Choose a plant:</label>
+            <select id="plant" name="plant">
+                <!-- Options for plants -->
+            </select>
+
+            <label for="symptoms">Choose symptoms:</label>
+            <select id="symptoms" name="symptoms" multiple>
+                <!-- Options for symptoms -->
+            </select>
+
+            <button type="submit">Identify Disease</button>
+        </form>
+
+        <div id="result">
+            <!-- Disease information will be displayed here -->
+            <div id="diseaseInfo">
+                <div id="diseaseDetails">
+                    <h2 id="diseaseName"></h2>
+                    <p id="diseaseDescription"></p>
+                    <img id="diseaseImage" src="" alt="Disease Image" style="display: none;">
+                    <a id="sourceLink" href="#" target="_blank" style="display: none;">Source link</a>
+                </div>
+                <div id="treatmentAdvice">
+                    <h3>Treatment</h3>
+                    <p id="treatment"></p>
+                    <h3>Advice</h3>
+                    <p id="advice"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/app.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,mr,hi,ta',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

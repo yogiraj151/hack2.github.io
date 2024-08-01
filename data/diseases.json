@@ -1,0 +1,71 @@
+[
+    {
+        "plant": "Apple",
+        "name": "Apple Scab",
+        "symptoms": ["Yellow leaves", "Spots"],
+        "description": "Apple scab is a fungal disease...",
+        "image": "images/apple_scab.jpeg",
+        "treatment": "Apply fungicides and prune infected leaves.",
+        "advice": "Ensure proper spacing and avoid overhead watering.",
+        "source": "https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-fruit-crops/ipm-strategies-for-banana/diseases-and-symptoms"
+    },
+    {
+        "plant": "Banana",
+        "name": "Panama Disease",
+        "symptoms": ["Wilting"],
+        "description": "Panama disease is a soil-borne fungus...",
+        "image": "images/Picture2.jpg",
+        "treatment": "Use resistant varieties and crop rotation.",
+        "advice": "Improve soil drainage and avoid planting in infected areas."
+    },
+    {
+        "plant": "Grapes",
+        "name": "Downy Mildew",
+        "symptoms": ["Pale yellow-green lesions", "White fruiting structures"],
+        "description": "Downy mildew is a fungal disease affecting green parts of the vine...",
+        "image": "images/Picture1.jpg",
+        "treatment": "1. Maintain plant vigor. Make sure soils are well drained. Fertilize according to soil test information obtained at least every other year.\n2. Sanitation. Remove fallen leaves which are the source of overwintering inoculum.\n3. Pruning. Prune out the ends of infected shoots.\n4. Fungicides. Fungicides are an important control measure, especially on susceptible cultivars. They should be applied just before bloom, 7 to 10 days later (usually at the end of bloom), 10 to 14 days after that, and finally, 3 weeks after the third application. For cultivars very susceptible to downy mildew or where the disease was severe the previous season, an additional application is suggested about 2 weeks before the first blossom opens. Pesticides registered for use include captan, copper, fosetyl-Al, mancozeb, maneb, and ziram.",
+        "advice": "Ensure good air circulation and avoid overhead watering.",
+        "source": "https://example.com/downy_mildew"
+    },
+    {
+        "plant": "Grapes",
+        "name": "Black Rot",
+        "symptoms": ["Reddish brown spots on leaves", "Black scab on berries"],
+        "description": "The disease attacks the leaves, stem, flowers, and berries. All the new growth on the vine is prone to attack during the growing season. Symptoms include irregularly shaped reddish brown spots on leaves and a black scab on berries. Occasionally, small elliptical dark-colored canker lesions occur on young stems and tendrils. Affected berries shrivel and become hard black mummies.",
+        "image": "images/Picture3.jpg",
+        "treatment": "1. Sanitation is crucial. Destroy mummies, remove diseased tendrils from the wires, and select fruiting canes without lesions. 2. Plant grapes in sunny open areas with good air movement. Remove infected leaves and avoid planting in shaded areas.",
+        "advice": "Ensure good air circulation and remove mummies from the vine. Avoid planting in shaded areas.",
+        "source": "https://example.com/black_rot"
+    },
+    {
+        "plant": "Custard Apple",
+        "name": "Leaf Spot",
+        "symptoms": ["Yellowish spots", "Brownish patches"],
+        "description": "Alternaria leaf spot: Small yellowish spots first appear along the leaf margins, which gradually enlarge and turn into brownish patches with concentric rings. Severe infection leads to drying and defoliation. Dark brown-purplish patches appear on the infected fruits and rachis just below its attachment with the shoots. Cylindrocladium leaf spot: Upper: dark purple spots about 1 to 2 mm in diameter develop first on the shoulders of the fruit and then spread down the sides. Spots enlarge and then later dry out and crack. Similar in appearance to spotting bug damage, but spots are irregular in shape whereas spotting bug lesions are round, and damage does not extend very far into the fruit.",
+        "image": "images/custard apple.jpg",
+        "treatment": "Ingredients: \n(a) 3-5 kg aloevera, (b) any two of the following: 3-5 kg custard apple leaves 3-5 kg bougainvilla leaves, 3-5 kg lantana camara leaves, 3-5 kg papaya leaves, (c) 100 gms turmeric powder, (d) 250-500 gms pseudomonas and (e) 10 liters archae bacterial solution.\nPreparation: \n• Pound all the leaves, add enough water to immerse them and boil it as explained above. \n• Prepare 50 liters solution the solution will have a dark colour. \n• Add turmeric powder to it. \n• Let it ferment for about 12 hours. \n• At the same time, mix the archaebacterial solution and pseudomonas and set aside for 12 hours.\nUsage: Mix the above two solutions, add sufficient water to bring the total to 100 liters, and spray.",
+        "advice": "Ensure good air circulation and remove infected leaves.",
+        "source": "https://example.com/leaf_spot"
+    },
+    {
+        "plant": "Custard Apple",
+        "name": "Black Canker",
+        "symptoms": ["Irregularly shaped spots", "Feathered edge"],
+        "description": "Irregularly shaped spots ranging from small specks to large blotches. Spots have an indistinct ‘feathered’ edge. Tissue damage under the spots is no more than 10 mm deep.",
+        "image": "images/custard apple2.jpg",
+        "treatment": "Black canker treatment includes pruning and spraying with fungicides. You can’t cure existing cankers with fungicide, but you may be able to prevent reinfections. Treat nearby trees as well to prevent them from becoming infected. Spraying should be carefully timed. Consult your local Cooperative Extension agent for advice on the best time to spray for black canker on trees in your area. Pruning away infected twigs and branches is an important part of treating black canker disease. Your goal is to remove all of the infected leaves and twigs. Look for dark-colored twigs with shriveled leaves. When the infection completely encircles a twig, it will have a characteristic droop or hook shape at the tip.",
+        "advice": "Ensure good air circulation and prune infected branches.",
+        "source": "https://example.com/black_canker"
+    },
+    {
+        "plant": "Custard Apple",
+        "name": "Diplodia Rot",
+        "symptoms": ["Purplish to black spots", "White mycelia"],
+        "description": "Diseased fruits show symptoms of purplish to black spots or blotches confined to the surface of the fruit and eventually covered with white mycelia and black pycnidia. Diplodia rot is distinguished by its dark internal discoloration and the extensive corky rotting it produces. The penetrated flesh eventually softens or hardens and cracks, depending on the presence of secondary microbes.",
+        "image": "images/custard apple3.jpg",
+        "treatment": "Management: \n• Hybrids differ in their susceptibility to Diplodia ear rots, but all will show some damage under severe conditions\n• Harvest seriously infected fields early and dry grain to below 15% moisture (below 13% for storage through the following summer).\n• Cool infected grain below 50 ºF as quickly after harvest as possible and store at 30 ºF.\n• Clean grain after drying and before storing to remove lighter, damaged kernels, cobs and fines.\n• Diplodia development on ears in field can worsen in the bin if grain is not dried properly.\n• Screen grain and store the most infected grain separately to help avoid putting the whole bin at risk.",
+        "advice": "Ensure good storage conditions and monitor for early signs of infection.",
+        "source": "https://example.com/diplodia_rot"
+    }
+]
